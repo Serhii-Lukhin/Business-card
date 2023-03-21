@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Serhii Lukhin</title>
+  </head>
+  <body>
+    <div class="card">
+      <button class="qr-btn" data-qr-open>
+        <svg width="32" height="32">
+          <use href="./img/icons.svg#icon-qrcode"></use>
+        </svg>
+      </button>
+      <button class="qr-btn is-hidden-simple" data-qr-close>
+        <svg width="32" height="32">
+          <use href="./img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="tumb">
+        <img
+          src="./img/my_photo.jpg"
+          alt="Serhii Lukhin"
+          width="298"
+          class="my-photo"
+          data-qr-hidden
+        />
+        <img
+          src="./img/my-qrcode.svg"
+          alt="Serhii Lukhin"
+          width="214"
+          class="my-qr-code is-hidden"
+          data-qr-code
+        />
+      </div>
+      <div class="">
+        <h1 class="my-name">Serhii LUKHIN</h1>
+        <h2 class="my-post">Full-stack Developer</h2>
+        <ul class="contacts">
+          <li class="contacts-item">
+            <a href="https://instagram.com/doggypoet/">
+              <span class="my-link">
+                <svg width="52" height="52">
+                  <use href="./img/icons.svg#icon-instagram"></use>
+                </svg>
+              </span>
+              <span class="contacts-text">@doggypoet</span>
+            </a>
+          </li>
+          <li class="contacts-item">
+            <a href="https://facebook.com/doggypoet/">
+              <span class="my-link">
+                <svg width="52" height="52">
+                  <use href="./img/icons.svg#icon-facebook"></use>
+                </svg>
+              </span>
+              <span class="contacts-text">@doggypoet</span>
+            </a>
+          </li>
+          <li class="contacts-item">
+            <a href="https://www.linkedin.com/in/serhii-lukhin/">
+              <span class="my-link">
+                <svg width="52" height="52">
+                  <use href="./img/icons.svg#icon-linkedin"></use>
+                </svg>
+              </span>
+              <span class="contacts-text">/serhii-lukhin</span>
+            </a>
+          </li>
+          <li class="contacts-item">
+            <a href="tel:+380990700467">
+              <span class="my-link">
+                <svg width="52" height="52">
+                  <use href="./img/icons.svg#icon-phone"></use></svg
+              ></span>
+              <span class="contacts-text">+380990700467</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./java/script.js"></script>
+  </body>
+</html>
